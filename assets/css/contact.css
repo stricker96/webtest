@@ -1,0 +1,50 @@
+.contact-section {
+  padding: 4em 2em;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: var(--accent-color);
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.contact-container p {
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  margin: 1em 0;
+  font-size: 1.1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.contact-list a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+.contact-list i {
+  font-size: 1.2em;
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sonal Shukla | Biomedical Researcher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/about.css" />
+    <link rel="stylesheet" href="assets/css/project.css" />
+    <link rel="stylesheet" href="assets/css/experience.css" />
+    <link rel="stylesheet" href="assets/css/awards.css" />
+    <link rel="stylesheet" href="assets/css/publications.css" />
+    <link rel="stylesheet" href="assets/css/contact.css" />
+
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Sonal Shukla</a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle" class="theme-toggle">🌓</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Sonal Shukla</h1>
+      <h2 id="typing-text">Biomedical Researcher</h2>
+      <a href="#about" class="cta-button">Learn More</a>
+    </div>
+  </header>
+
+ <section id="about" class="about-section fade-in">
+  <div class="about-container">
+    <div class="about-image">
+      <img src="assets/img/profile.jpeg" alt="Sonal Shukla" />
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I’m Sonal Shukla, a biomedical researcher deeply passionate about the intersection of science and technology.
+      </p>
+      <p>
+        With experience spanning AI applications in biology, academic research, and interdisciplinary collaboration, I focus on building solutions that are both impactful and innovative.
+      </p>
+      <p>
+        This website is a showcase of my projects, experience, and aspirations — feel free to explore!
+      </p>
+
+      <!-- Add this line -->
+<a href="assets/files/sonal_shukla_cv.pdf" class="cv-button" download>
+  <i class="fas fa-paperclip"></i> Download CV
+</a>
+    </div>
+  </div>
+</section>
+<section id="projects" class="projects-section fade-in">
+  <h2>Projects</h2>
+  <div class="projects-grid">
+
+    <div class="flip-card project1">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Federated Learning for Pathology</h3>
+        </div>
+        <div class="flip-back">
+          <p>
+            Developed a federated learning pipeline for whole slide imaging datasets, enabling institutional collaboration without data sharing. Addressed gigapixel images and model generalization.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card project2" >
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Gesture Recognition & Traffic Control</h3>
+        </div>
+        <div class="flip-back">
+          <p>
+            Real-time hand gesture recognition using deep learning and computer vision, integrated with IoT for workplace safety and traffic optimization.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card project3" >
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Explainable BERT for Text Extraction</h3>
+        </div>
+        <div class="flip-back">
+          <p>
+            Extracted explainable text insights using BERT with contextual understanding for use in clinical and operational decision-making.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card project4">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <h3>Tweet Analysis Web App</h3>
+        </div>
+        <div class="flip-back">
+          <p>
+            Built a scalable Flask+MongoDB web app for real-time sentiment analysis and social trend tracking using NLP.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="experience" class="experience-section fade-in">
+  <h2>Experience & Internships</h2>
+
+  <div class="experience-carousel-wrapper">
+    <!-- Left/Right Arrows -->
+    <button class="carousel-arrow left">&#10094;</button>
+
+    <!-- Carousel Slides -->
+    <div class="experience-carousel">
+      <!-- Slide 1 -->
+      <div class="experience-slide">
+        <!-- Card 1 -->
+        <div class="experience-card horizontal">
+          <img src="assets/img/experience/buffalo.png" alt="UB Logo" />
+          <div class="experience-content">
+            <h2>Research Assistant</h2>
+            <h3>University at Buffalo (SUNY)</h3>
+            <p>
+              Investigated variability in WSI datasets for cancer diagnosis. Used stain normalization, domain adversarial training, and batch correction to improve generalizability across pathology sources.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="experience-card horizontal">
+          <img src="assets/img/experience/pfizer.png" alt="Pfizer Logo" />
+          <div class="experience-content">
+            <h2>Co-op Research Scientist</h2>
+            <h3>Pfizer</h3>
+            <p>
+              Built CV & deep learning algorithms for WSI cancer detection. Led segmentation pipelines for oncology research. Worked with pathologists and data scientists to integrate AI into workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="experience-slide">
+        <!-- Card 3 -->
+        <div class="experience-card horizontal">
+          <img src="assets/img/experience/ironmountain.png" alt="Iron Mountain Logo" />
+          <div class="experience-content">
+            <h2>Digital Pathology Intern</h2>
+            <h3>Iron Mountain</h3>
+            <p>
+              Applied AI for cell detection and segmentation. Handled dataset variability and automated preprocessing. Scaled pipelines for reproducibility and accuracy.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="experience-card horizontal">
+          <img src="assets/img/experience/caimif.png" alt="CAIMIF Logo" />
+          <div class="experience-content">
+            <h2>Guest Lecturer</h2>
+            <h3>CAIMIF India</h3>
+            <p>
+              Delivered a lecture on federated learning for WSI. Focused on privacy-preserving AI and batch effect mitigation in computational pathology.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="experience-slide">
+        <!-- Card 5 -->
+        <div class="experience-card horizontal">
+          <img src="assets/img/experience/buffalo.png" alt="UB Logo" />
+          <div class="experience-content">
+            <h2>Guest Lecturer</h2>
+            <h3>University at Buffalo</h3>
+            <p>
+              Covered ML techniques for biomedical data: preprocessing, feature extraction, and decision system integration.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="experience-card horizontal">
+          <img src="assets/img/experience/isro.png" alt="ISRO Logo" />
+          <div class="experience-content">
+            <h2>DevOps Intern</h2>
+            <h3>ISRO</h3>
+            <p>
+              Automated testing pipelines using Selenium. Enhanced efficiency and minimized manual workload in DevOps workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- .experience-carousel -->
+
+    <!-- Right Arrow -->
+    <button class="carousel-arrow right">&#10095;</button>
+  </div> <!-- .experience-carousel-wrapper -->
+
+  <!-- Dot Navigation (moved outside wrapper) -->
+  <div class="carousel-dots">
+    <span class="dot active" data-slide="0"></span>
+    <span class="dot" data-slide="1"></span>
+    <span class="dot" data-slide="2"></span>
+  </div>
+</section>
+
+<section id="awards" class="awards-section fade-in">
+  <h2>Awards & Grants</h2>
+
+  <div class="awards-container">
+    <div class="award-card highlight">
+  <h3>CTSI Pilot Study Grant (2024) – NIH</h3>
+  <p>Collaborated with my PI to secure a <strong>$50,000</strong> grant for the project titled:</p>
+  <p><em>“Initiative for Private and Secure Collaborative AI Training in Computational Pathology.”</em></p>
+</div>
+
+
+    <div class="award-card">
+      <h3>Reviewer for Journals</h3>
+      <ul>
+        <li>IEEE Transactions on Medical Imaging</li>
+        <li>IEEE Transactions on Pattern Analysis and Machine Intelligence</li>
+        <li>SPIE Journal of Medical Imaging</li>
+      </ul>
+    </div>
+
+    <div class="award-card">
+      <h3>Reviewer for Conferences</h3>
+      <ul>
+        <li>SPIE Digital Pathology & Medical Imaging Conference</li>
+        <li>USCAP Annual Pathology Conference</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="publications" class="publications-section fade-in">
+  <h2>Publications</h2>
+
+<div class="publications-marquee-wrapper">
+
+  <div class="publications-marquee" id="pub-scroll">
+    <ul class="publications-list">
+      <!-- Your 3 real publications -->
+      <li><strong>1.</strong> Shukla S, Doyle S, Brandwein-Weber M...<br><em>Federated Learning...</em><br>SPIE 2024</li>
+      <li><strong>2.</strong> Shukla S, Doyle S, Brandwein-Weber M...<br><em>Advancing Computational Pathology...</em><br>USCAP 2024</li>
+      <li><strong>3.</strong> Legala A, Shukla S, Doyle S...<br><em>Quantification of Site-Specific Differences...</em><br>SPIE 2025</li>
+
+      <!-- Duplicate for looping -->
+      <li><strong>1.</strong> Shukla S, Doyle S, Brandwein-Weber M...<br><em>Federated Learning...</em><br>SPIE 2024</li>
+      <li><strong>2.</strong> Shukla S, Doyle S, Brandwein-Weber M...<br><em>Advancing Computational Pathology...</em><br>USCAP 2024</li>
+      <li><strong>3.</strong> Legala A, Shukla S, Doyle S...<br><em>Quantification of Site-Specific Differences...</em><br>SPIE 2025</li>
+    </ul>
+  </div>
+</div>
+    
+</section>   
+    
+ <section id="contact" class="contact-section fade-in">
+  <h2>Contact Me</h2>
+
+  <div class="contact-container">
+    <p>If you'd like to get in touch, feel free to reach out via email or connect with me on professional platforms.</p>
+
+    <ul class="contact-list">
+      <li>
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:sonal.shukla@example.com">sonal.shukla@example.com</a>
+      </li>
+      <li>
+        <i class="fab fa-linkedin"></i>
+        <a href="https://linkedin.com/in/sonalshukla" target="_blank">linkedin.com/in/sonalshukla</a>
+      </li>
+      <li>
+        <i class="fab fa-github"></i>
+        <a href="https://github.com/stricker96" target="_blank">github.com/stricker96</a>
+      </li>
+      <li>
+        <i class="fas fa-graduation-cap"></i>
+        <a href="https://scholar.google.com/citations?user=YOUR_ID_HERE" target="_blank">Google Scholar</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    
+  <footer>
+    <p>&copy; 2025 Sonal Shukla</p>
+  </footer>
+
+  <!-- Scripts -->
+<script src="assets/js/home.js"></script>
+<script src="assets/js/project.js"></script>
+<script src="assets/js/experience.js"></script>
+<script src="assets/js/main.js"></script>
+    
+</body>
+</html>

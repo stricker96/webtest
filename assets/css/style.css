@@ -1,0 +1,105 @@
+:root {
+  --bg-color: #f4f4f4;
+  --text-color: #222;
+  --accent-color: #3a6073;
+  --button-bg: white;
+  --button-text: #16222a;
+
+  --section-bg: #ffffff;
+  --highlight-bg: #eaf8ea;
+}
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #f4f4f4;
+  --accent-color: #5c93b0;
+  --button-bg: #333;
+  --button-text: white;
+
+  --section-bg: #1c1c1c;
+  --highlight-bg: #263d29;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0.5em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-menu li a:hover {
+  color: var(--accent-color);
+}
+
+.nav-menu li button.theme-toggle {
+  margin: 0;
+  padding: 0.4em 0.6em;
+  font-size: 1em;
+}
+
+.cta-button {
+  background: var(--button-bg);
+  color: var(--button-text);
+}
+
+header, footer {
+  background-color: #222;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+section {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+
+.theme-toggle:hover {
+  background: var(--accent-color);
+  color: white;
+}

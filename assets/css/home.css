@@ -1,0 +1,50 @@
+.hero {
+  margin-top: 60px; /* adjust to navbar height */
+}
+
+.hero {
+  background: linear-gradient(to right, #3a6073, #16222a);
+  color: white;
+  text-align: center;
+  padding: 10vh 2em;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero-content h2 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  height: 1.5em;
+  overflow: hidden;
+}
+
+.cta-button {
+  margin-top: 1em;
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  background: white;
+  color: #16222a;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #ddd;
+}
+
+/* Fade-in effect */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: none;
+}
